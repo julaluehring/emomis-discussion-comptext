@@ -1,19 +1,43 @@
 ---
 title: "COMPTEXT 2024 Presentation"
 author: "Jula Luehring"
+date: "9 April 2024"
 format: 
-    revealjs:
-        theme: simple
+  revealjs: 
+    seal: false
+    transition: 'slide'
+    ## Defines the theme of the presentation, both version and style
+    theme: [default, custom.scss]
+    # incremental slides point by point
+    #incremental: true
+    aspect-ratio: 16:9
+    slide-number: true
+title-slide-attributes:
+    data-background-color: "#1f5c99"
+#     data-background-size: cover
+#     data-background-opacity: "0.5"
+
+#editor
 editor: visual
 ---
 
+# The Project
+
 ## Introduction
 
-- misinformation effects
-- causality?
+::: columns
+::: {.column width="30%"}
+![](images/pexels-alex-green-5699823.jpg)
+:::
 
----
- 
-## Next slide
+::: {.column width="50%"}
+![](images/factchecking.svg)
+:::
+:::
 
---- 
+::: incremental
+-   Emotions attract attention & increase sharing
+-   Beliefs are shaped by our social identity
+-   Group & emotion dynamics are central on social media
+-   Existing interventions focus on accuracy
+:::
