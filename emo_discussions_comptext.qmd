@@ -1,0 +1,19 @@
+---
+title: "COMPTEXT 2024 Presentation"
+author: "Jula Luehring"
+format: 
+    revealjs:
+        theme: simple
+editor: visual
+---
+
+## Introduction
+
+- misinformation effects
+- causality?
+
+---
+ 
+## Next slide
+
+--- 
