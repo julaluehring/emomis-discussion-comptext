@@ -1,7 +1,7 @@
 ---
-title: "COMPTEXT 2024 Presentation"
+title: "Causal Effects of News Trustworthiness on Online Discussions"
 author: "Jula Luehring"
-date: "9 April 2024"
+date: "3 May 2024"
 format: 
   revealjs: 
     seal: false
@@ -21,9 +21,9 @@ title-slide-attributes:
 editor: visual
 ---
 
-# The Project
+# Causal Effects of News Trustworthiness on Online Discussions
 
-## Introduction
+## Misinformation
 
 ::: columns
 ::: {.column width="30%"}
@@ -41,3 +41,78 @@ editor: visual
 -   Group & emotion dynamics are central on social media
 -   Existing interventions focus on accuracy
 :::
+
+## Emotions
+
+Research on the role of emotions in this context is mixed. While emotions are said to make people more susceptible to accepting misinformation----defined as inaccurate information----, we found in a previous study that this relationship is contingent on the prior beliefs of participants (Luehring, Shetty, et al., 2023). In other words, the function of emotions hinges on the interaction of prior beliefs and content (Van Damme & Smets, 2014), such that people with different prior beliefs experience and express one and the same emotion for different reasons.
+
+## Hypotheses
+
+<center>
+
+::: columns
+::: {.column width="38%"}
+![](images/EmotionTimelines2020_Italy.svg)
+
+Observational social media analyses of emotional dynamics around news
+:::
+
+::: {.column width="28%"}
+Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
+:::
+
+::: {.column width="28%"}
+![](images/communication-network.png) Agent-based modelling: network & algorithms
+:::
+:::
+
+</center>
+
+## Do fake news elicit emotions?
+
+::: columns
+::: {.column width="35%"}
+-   COVID-19 news headlines
+-   Austria 2021
+-   Mood & response <br>
+-   Response:
+    -   More anger
+    -   Less joy
+:::
+
+::: {.column width="60%"}
+::: fragment
+![](images/emo_diff_plot_color.svg){width="500"}
+:::
+:::
+:::
+
+::: footer
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
+:::
+
+## Do emotions increase susceptibility?
+
+```{r, out.width=1000, fig.align='center'}
+knitr::include_graphics("images/curvi-linear.svg")
+```
+
+::: incremental
+-   Higher anger in people **good & bad** at recognizing false news
+-   Angry responses because most people **recognize** false news
+-   Emotions arise when information contradicts existing beliefs
+:::
+
+::: footer
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
+:::
+
+# Data collection
+
+-   44M tweets
+-   March 2023 to October 2024
+-   Natural Language Processing
+
+## Emotion inference
+
+# Analysis

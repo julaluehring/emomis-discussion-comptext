@@ -10,8 +10,8 @@
   <meta name="generator" content="quarto-1.1.189">
 
   <meta name="author" content="Jula Luehring">
-  <meta name="dcterms.date" content="2024-04-09">
-  <title>COMPTEXT 2024 Presentation</title>
+  <meta name="dcterms.date" content="2024-05-03">
+  <title>EMOMIS at COMPTEXT 2024</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -325,18 +325,18 @@
     <div class="slides">
 
 <section id="title-slide" data-background-color="#1f5c99" class="center">
-  <h1 class="title">COMPTEXT 2024 Presentation</h1>
+  <h1 class="title">EMOMIS at COMPTEXT 2024</h1>
   <p class="author">Jula Luehring</p>
-  <p class="date">9 April 2024</p>
+  <p class="date">3 May 2024</p>
 </section>
 
 <section>
-<section id="the-project" class="title-slide slide level1 center">
-<h1>The Project</h1>
+<section id="causal-effects-of-news-trustworthiness-on-online-discussions" class="title-slide slide level1 center">
+<h1>Causal Effects of News Trustworthiness on Online Discussions</h1>
 
 </section>
-<section id="introduction" class="slide level2">
-<h2>Introduction</h2>
+<section id="misinformation" class="slide level2">
+<h2>Misinformation</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <p><img data-src="images/pexels-alex-green-5699823.jpg"></p>
@@ -352,10 +352,82 @@
 <li class="fragment">Existing interventions focus on accuracy</li>
 </ul>
 </div>
+</section>
+<section id="emotions" class="slide level2">
+<h2>Emotions</h2>
+<p>Research on the role of emotions in this context is mixed. While emotions are said to make people more susceptible to accepting misinformation—-defined as inaccurate information—-, we found in a previous study that this relationship is contingent on the prior beliefs of participants (Luehring, Shetty, et al., 2023). In other words, the function of emotions hinges on the interaction of prior beliefs and content (Van Damme &amp; Smets, 2014), such that people with different prior beliefs experience and express one and the same emotion for different reasons.</p>
+</section>
+<section id="hypotheses" class="slide level2">
+<h2>Hypotheses</h2>
+<center>
+<div class="columns">
+<div class="column" style="width:38%;">
+<p><img data-src="images/EmotionTimelines2020_Italy.svg"></p>
+<p>Observational social media analyses of emotional dynamics around news</p>
+</div><div class="column" style="width:28%;">
+<p>Emotion regulation interventions <img data-src="images/Facebook%20Post_Homeopathy_Intervention_Cropped.png"></p>
+</div><div class="column" style="width:28%;">
+<p><img data-src="images/communication-network.png"> Agent-based modelling: network &amp; algorithms</p>
+</div>
+</div>
+</center>
+</section>
+<section id="do-fake-news-elicit-emotions" class="slide level2">
+<h2>Do fake news elicit emotions?</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<ul>
+<li>COVID-19 news headlines</li>
+<li>Austria 2021</li>
+<li>Mood &amp; response <br></li>
+<li>Response:
+<ul>
+<li>More anger</li>
+<li>Less joy</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<div class="fragment">
+<p><img data-src="images/emo_diff_plot_color.svg" width="500"></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Lühring*, Shetty*, Koschmieder, Waldherr, Garcia &amp; Metzler (2023), <a href="https://psyarxiv.com/udqms/">PsyarXiv</a>.</p>
+</div>
+</section>
+<section id="do-emotions-increase-susceptibility" class="slide level2">
+<h2>Do emotions increase susceptibility?</h2>
+
+<img data-src="images/curvi-linear.svg" width="1000" class="r-stretch quarto-figure-center"><div>
+<ul>
+<li class="fragment">Higher anger in people <strong>good &amp; bad</strong> at recognizing false news</li>
+<li class="fragment">Angry responses because most people <strong>recognize</strong> false news</li>
+<li class="fragment">Emotions arise when information contradicts existing beliefs</li>
+</ul>
+</div>
+<div class="footer">
+<p>Lühring*, Shetty*, Koschmieder, Waldherr, Garcia &amp; Metzler (2023), <a href="https://psyarxiv.com/udqms/">PsyarXiv</a>.</p>
+</div>
+</section></section>
+<section>
+<section id="data-collection" class="title-slide slide level1 center">
+<h1>Data collection</h1>
+<ul>
+<li>44M tweets</li>
+<li>March 2023 to October 2024</li>
+<li>Natural Language Processing</li>
+</ul>
+</section>
+<section id="emotion-inference" class="slide level2">
+<h2>Emotion inference</h2>
+</section></section>
+<section id="analysis" class="title-slide slide level1 center">
+<h1>Analysis</h1>
 <div class="footer footer-default">
 
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -567,6 +639,48 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
