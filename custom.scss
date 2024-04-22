@@ -3,11 +3,12 @@
 
 //$body-bg: #191919;
 //$body-color: #fff;
-$link-color: #2a76dd;
+$link-color: #0063A6;
 
 
 // headings
-$presentation-heading-color: #0b5d9c !default;
+$presentation-heading-color: #0063A6;
+$presentation-h1-color: #0063A6; 
 $presentation-h1-font-size: 2.5em;
 $presentation-h2-font-size: 1.4em;
 $presentation-h3-font-size: 1em;
@@ -27,8 +28,3 @@ $presentation-h3-font-size: 1em;
 .title-slide .remark-slide-number {
   display: none;
 }
-
-
-
-//Previous formatting Xaringan
-

@@ -1,97 +1,64 @@
 ---
-title: "Causal Effects of News Trustworthiness on Online Discussions"
+title: "Effects of News Trustworthiness on Online Discussions"
 author: "Jula Luehring"
 date: "3 May 2024"
 format: 
   revealjs: 
     seal: false
-    transition: 'slide'
-    ## Defines the theme of the presentation, both version and style
-    theme: [default, custom.scss]
+    transition: "slide"
+    theme: [default, custom.scss] #custom style file
     # incremental slides point by point
     #incremental: true
     aspect-ratio: 16:9
     slide-number: true
 title-slide-attributes:
-    data-background-color: "#1f5c99"
-#     data-background-size: cover
-#     data-background-opacity: "0.5"
+    data-background-color: "#2A76DD"
+    data-background-size: cover
+    data-background-opacity: "0.5"
 
-#editor
-editor: visual
+editor: visual #visual editor
 ---
 
-# Causal Effects of News Trustworthiness on Online Discussions
+# WORK IN PROGRESS
 
-## Misinformation
-
-::: columns
-::: {.column width="30%"}
-![](images/pexels-alex-green-5699823.jpg)
-:::
-
-::: {.column width="50%"}
-![](images/factchecking.svg)
-:::
-:::
-
-::: incremental
--   Emotions attract attention & increase sharing
--   Beliefs are shaped by our social identity
--   Group & emotion dynamics are central on social media
--   Existing interventions focus on accuracy
-:::
-
-## Emotions
-
-Research on the role of emotions in this context is mixed. While emotions are said to make people more susceptible to accepting misinformation----defined as inaccurate information----, we found in a previous study that this relationship is contingent on the prior beliefs of participants (Luehring, Shetty, et al., 2023). In other words, the function of emotions hinges on the interaction of prior beliefs and content (Van Damme & Smets, 2014), such that people with different prior beliefs experience and express one and the same emotion for different reasons.
-
-## Hypotheses
-
-<center>
+## Misinformation risk assessment
 
 ::: columns
-::: {.column width="38%"}
-![](images/EmotionTimelines2020_Italy.svg)
-
-Observational social media analyses of emotional dynamics around news
-:::
-
-::: {.column width="28%"}
-Emotion regulation interventions ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
-:::
-
-::: {.column width="28%"}
-![](images/communication-network.png) Agent-based modelling: network & algorithms
-:::
-:::
-
-</center>
-
-## Do fake news elicit emotions?
-
-::: columns
-::: {.column width="35%"}
--   COVID-19 news headlines
--   Austria 2021
--   Mood & response <br>
--   Response:
-    -   More anger
-    -   Less joy
-:::
-
 ::: {.column width="60%"}
-::: fragment
-![](images/emo_diff_plot_color.svg){width="500"}
+![](images/WEF-wide.png){width="594"}
 :::
+
+::: {.column width="40%"}
+::: fragment
+Or strong effects on only few people? Decrease in trust?
+:::
+:::
+:::
+
+::: fragment
+::: incremental
+*Problem*: Often measured as few clearly true or false instances,
+
+a)  neglecting less extreme types of misinformation and
+b)  making it hard to isolate effects of misinformation
 :::
 :::
 
 ::: footer
-Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
+Lühring, Lasser, Shetty, Lazzaroni, & Metzler (2024), *in preparation*.
 :::
 
-## Do emotions increase susceptibility?
+## What are effects of misinformation?
+
+::: incremental
+-   Misperceptions, but only up to 5% believe in misinformation
+-   Knowledge gaps
+-   Reinforcing partisan sorting & conflict
+:::
+
+## Emotional reactions to misinformation
+
+-   Function of emotions hinges on the interaction of prior beliefs and content (Van Damme & Smets, 2014)
 
 ```{r, out.width=1000, fig.align='center'}
 knitr::include_graphics("images/curvi-linear.svg")
@@ -99,20 +66,123 @@ knitr::include_graphics("images/curvi-linear.svg")
 
 ::: incremental
 -   Higher anger in people **good & bad** at recognizing false news
--   Angry responses because most people **recognize** false news
--   Emotions arise when information contradicts existing beliefs
+-   Angry responses because most people **recognize** false news Emotions arise when information contradicts existing beliefs!
 :::
 
 ::: footer
 Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
 :::
 
-# Data collection
+## Social Media
 
--   44M tweets
--   March 2023 to October 2024
--   Natural Language Processing
+-   On social media, emotions attract attention & increase sharing
+-   Conflict, group & emotion dynamics are central on social media (Bail)
+
+::: incremental
+More *problems*:
+
+-   Positive and negative sentiment only, overlooking the different effects of distinct emotions
+
+-   Distinction of emotions within news from reactions to the news
+:::
+
+## Objectives
+
+<center>
+
+::: columns
+::: {.column width="50%"}
+1.  Collecting a **systematic, large-scale and long-term data set** for the German-speaking context
+
+    -   including trustworthy and untrustworthy news
+    -   and the whole political spectrum
+:::
+
+::: {.column width="50%"}
+2.  Using a nonparametric matching strategy to approximate **causal inference** to test the effects of misinformation on online discussions
+:::
+:::
+
+</center>
+
+# Data collection
 
 ## Emotion inference
 
-# Analysis
+::: columns
+::: {.column width="70%"}
+![](images/daily_emotions_complete.png){width="600"}
+
+*N* = 9.3M Twitter discussions following 347 German news domains (20.6M total)
+:::
+
+::: {.column width="30%"}
+Zero-shot classification (Macro F^1^ = 0.6):
+
+pol_emo_mDeBERTa2 (Widmann & Wich, 2022)
+:::
+:::
+
+::: footer
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler (2023), [PsyarXiv](https://psyarxiv.com/udqms/).
+:::
+
+# Results
+
+## Engagement
+
+::: columns
+::: {.column width="70%"}
+![](images/main_nb_estimates.png){width="562"} Negative Binomial Models (Log-Link)
+:::
+
+::: {.column width="30%"}
+::: fragment
+News trustworthiness is associated with more contextual engagement
+:::
+:::
+:::
+
+::: columns
+Controls: political orientation, word count, author following count, emotions in first tweet
+:::
+
+## Emotions
+
+::: columns
+::: {.column width="60%"}
+![](images/fm_coeff_matched.jpg){width="562"} OLS regressions with nonparametric matching
+:::
+
+::: {.column width="30%"}
+::: fragment
+More anger and out-group references in response to sources with low trustworthiness
+:::
+:::
+:::
+
+::: Controls: political orientation, word count, following/follower count, emotions :::
+
+## Covariates
+
+# Conclusion
+
+## Tentative take-away messages
+
+## Next steps
+
+-   double-check model fit by bootstrapping distributions
+-   network graphs of discussion (Gonzalez-Bailon)
+-   analyzing responses in same users
+
+# Thank you!
+
+::: columns
+::: {.column width="30%"}
+![](images/CCL-logo.png){width="500"}
+:::
+
+::: {.column width="20%"}
+![](images/CSH-logo.png){width="500"}
+:::
+:::
