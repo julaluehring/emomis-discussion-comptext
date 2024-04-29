@@ -18,7 +18,6 @@ title-slide-attributes:
 logo: "images/UniVie-logo.png"
 
 editor: visual #visual editor
-bibliography: references.bib
 ---
 
 # WORK IN PROGRESS
