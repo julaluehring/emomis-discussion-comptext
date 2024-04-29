@@ -22,91 +22,78 @@ editor: visual #visual editor
 
 # WORK IN PROGRESS
 
-::: {.notes}
-
-- This is work in progress
+::: notes
+-   This is work in progress
 :::
 
 ## Emotions and Misinformation
 
 ::: incremental
-
 -   Misinformation as inaccurate information
 
 -   Arousing emotions are signal to make us better select, process and memorize information
 
--   In the case of misinformation, arousing emotions may 
-
-    -   make people more vulnerable to misinformation (as a moderator)
-
-    -   and increase effects of misinformation (as a mediator)
+-   In the case of misinformation, arousing emotions may increase acceptance and after effects
 
 -   **But:** the function of emotions is complex and hinges on the interaction of prior beliefs and content
-
 :::
 
 ::: footer
-
 Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [2023](https://www.nature.com/articles/s44159-021-00006-y); Leach & Zeineddine, [2021](https://link.springer.com/10.1007/s42761-021-00051-z); Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/); Martel et al. [2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7539247/); Wardle & Derakhshan, [2017](http://tverezo.info/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-desinformation-A4-BAT.pdf)
-
 :::
 
-::: {.notes}
-- Misinformation is used as an umbrella term and broadly captures all types of inaccurate information, regardless of the intention
-- Generally, most people are driven by accuracy, but they fall for misinformation when it aligns with their partisan biases 
-- In this process, a missing link seem to be emotions because arousing, mobilizing emotions signal us to better select, process and memorize vital information
-- which in theory, this is good, but, in some situations, they can also hinder systematic processing 
-- In the case of misinformation, we expect the latter: here, emotions can have a reinforcing effect and trick us into believing and engaging with misinformation
-- However, emotions are functional; therefore, also the function of emotions hinges on the interaction of prior beliefs and content
+::: notes
+-   Misinformation is used as an umbrella term and broadly captures all types of inaccurate information, regardless of the intention
+-   Generally, most people are driven by accuracy, but they fall for misinformation when it aligns with their partisan biases
+-   In this process, a missing link seem to be emotions because arousing, mobilizing emotions signal us to better select, process and memorize vital information
+-   which in theory, this is good, but, in some situations, they can also hinder systematic processing
+-   In the case of misinformation, we expect the latter: here, emotions can have a reinforcing effect and trick us into believing and engaging with misinformation
+-   However, emotions are functional; therefore, also the function of emotions hinges on the interaction of prior beliefs and content
 :::
-
 
 ## Misinformation on social media
 
 -   Negative, arousing emotions attract attention and increase sharing
 
--   High engagement: highly emotional, moralizing and negative content 	
+-   High engagement: highly emotional, moralizing and negative content
 
 -   Misinformation is embedded in group & emotion dynamics
-
 
 Q: Do negative, arousing emotions drive engagement with misinformation?
 
 Q: What is the role of inter-group conflict?
 
 ::: footer
-
 Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Zollo et al., [2015](https://dx.plos.org/10.1371/journal.pone.0138740)
 :::
 
-::: {.notes}
-- On social media, we also expect that negative, arousing emotions attract attention and increase sharing. 
-- Content that is highly arousing and negative gets higher engagement
-- Also here, misinformation is embedded in group and emotional dynamics
-- We therefore wonder if negative arousing emotions drive engagement with misinformation?
-- And what is the role of intergroup conflict in this, as a factor that can explain the direction of emotions
+::: notes
+-   On social media, we also expect that negative, arousing emotions attract attention and increase sharing.
+-   Content that is highly arousing and negative gets higher engagement
+-   Also here, misinformation is embedded in group and emotional dynamics
+-   We therefore wonder if negative arousing emotions drive engagement with misinformation?
+-   And what is the role of intergroup conflict in this, as a factor that can explain the direction of emotions
+:::
 
-::: 
 ## Problems
 
-::: columns 
-
+::: columns
 ::: {.column width="50%"}
-
 ::: fragment
 ### #1:
+
 Misinformation is measured as clearly true or false instances,
 
     1.  neglecting less extreme types of misinformation and
-    
+
     2.  making it hard to isolate effects of misinformation
 :::
-
 :::
 
 ::: {.column width="50%"}
 ::: fragment
 ### #2:
+
 Different effects of emotions are often overlooked,
 
     1. by measuring positive and negative sentiment only,
@@ -142,7 +129,7 @@ Different effects of emotions are often overlooked,
 
 </center>
 
-::: {.notes}
+::: notes
 Therefore, we derive 2 major objectives:
 :::
 
@@ -152,7 +139,7 @@ Therefore, we derive 2 major objectives:
 
 ::: columns
 ::: {.column width="70%"}
-*N* = 9.3M Twitter discussions following 347 German news domains (20.6M total) 
+*N* = 9.3M Twitter discussions following 347 German news domains (20.6M total)
 
 $\rightarrow$ *Untrustworthy sources*
 
@@ -179,7 +166,6 @@ Classification:
 :::
 
 ::: footer
-
 Lasser et al., [2023](http://arxiv.org/abs/2303.00357); Widmann & Wich, [2022](https://doi.org/10.1017/pan.2022.15)
 :::
 
@@ -222,7 +208,6 @@ Ho et al., [2007](https://www.cambridge.org/core/journals/political-analysis/art
 ::: fragment
 ### $\rightarrow$ More anger and out-group references
 
-
 ### $\rightarrow$ Less joy
 :::
 :::
@@ -239,7 +224,7 @@ Ho et al., [2007](https://www.cambridge.org/core/journals/political-analysis/art
 ~Models: OLS regressions~
 
 ::: fragment
-Emotion in the post $\rightarrow$ emotion in discussion
+### Emotion in the post $\rightarrow$ emotion in discussion
 :::
 :::
 :::
@@ -254,27 +239,49 @@ Emotion in the post $\rightarrow$ emotion in discussion
 
 ![](images/initial_emo_coeff.png){width="600"}
 
-$rightarrow$ lower trustworthiness = anger $rightarrow$ higher trustworthiness = joy
+### $\rightarrow$ Lower trustworthiness = anger 
 
-### Yes!
+### $\rightarrow$ higher trustworthiness = joy
+
+
+## Is lower trustworthiness associated with higher engagement? {visibility="hidden"}
+
+::: columns
+::: {.column width="70%"}
+~Models: Zero-inflated Negative Binomial (log-link)~
+
+~Controls: PO, word count, following, initial emotions~
+
+![](images/models_zero_estimates-se.png){width="600"}
+:::
+
+::: {.column width="30%"}
+![](images/reply_distributions.png){width="300"}
+:::
+:::
+
+::: footer
+Zeileis et al., [2008](http://www.jstatsoft.org/v27/i08/)
+:::
+
 
 ## Is lower trustworthiness associated with higher engagement?
 
 ::: columns
 ::: {.column width="70%"}
-~Models: Negative Binomial (log-link)~
+~Models: Zero-inflated Negative Binomial (log-link)~
 
 ~Controls: PO, word count, following, initial emotions~
 
-![](images/models_nb_estimates-se.jpg){width="600"}
+![](images/models_zinb_estimates-se.png){width="600"}
 :::
 
 ::: {.column width="30%"}
 ![](images/reply_distributions.png){width="300"}
 
-::: fragment
-### Untrustworthy news are retweeted less
 :::
+::: fragment
+### $\rightarrow$ Untrustworthy news get more retweets and quotes
 :::
 :::
 
@@ -288,13 +295,14 @@ Zeileis et al., [2008](http://www.jstatsoft.org/v27/i08/)
 
 -   Emotions in discussions largely reflect emotions in initial post
 -   Sources with low trustworthiness are related to anger and out-group references
+-   More *contextual* engagement
 
-More negative emotions in misinformation $\rightarrow$ more emotions in response $\rightarrow$ more engagement?
+### Negative emotions in misinformation $\rightarrow$ emotions in response $\rightarrow$ engagement?
 
 ## Up next
 
--   analyzing responses in within-users (reponding to trustworthy and untrustworthy posts)
--   robustness checks with multinomial models and bootstrapping
+-   responses within-users (responding to trustworthy and untrustworthy posts)
+-   bootstrapping
 -   characterizing the full discussion trees
 
 ::: footer
@@ -304,13 +312,13 @@ Carrella et al., [2023](https://osf.io/qx34w); Gonzalez-Bailon et al., [2010](ht
 # Thank you!
 
 ::: columns
+Please reach out! 
 
-Please reach out!
-Email: [jula.luehring@univie.ac.at](jula.luehring@univie.ac.at)
+Email: [jula.luehring\@univie.ac.at](jula.luehring@univie.ac.at)
 
-X: [@lue_jula](https://twitter.com/lue_jula)
+X: [\@lue_jula](https://twitter.com/lue_jula)
 
-Bluesky: [@julaluehring.bsky.social](https://bsky.app/profile/julaluehring.bsky.social)
+Bluesky: [\@julaluehring.bsky.social](https://bsky.app/profile/julaluehring.bsky.social)
 
 ::: {.column width="30%"}
 ![](images/CCL-logo.png){width="500"}

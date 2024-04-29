@@ -355,11 +355,7 @@
 <ul>
 <li class="fragment"><p>Misinformation as inaccurate information</p></li>
 <li class="fragment"><p>Arousing emotions are signal to make us better select, process and memorize information</p></li>
-<li class="fragment"><p>In the case of misinformation, arousing emotions may</p>
-<ul>
-<li class="fragment"><p>make people more vulnerable to misinformation (as a moderator)</p></li>
-<li class="fragment"><p>and increase effects of misinformation (as a mediator)</p></li>
-</ul></li>
+<li class="fragment"><p>In the case of misinformation, arousing emotions may increase acceptance and after effects</p></li>
 <li class="fragment"><p><strong>But:</strong> the function of emotions is complex and hinges on the interaction of prior beliefs and content</p></li>
 </ul>
 </div>
@@ -556,7 +552,8 @@
 </div><div class="column" style="width:25%;">
 <p><sub>Models:&nbsp;OLS&nbsp;regressions</sub></p>
 <div class="fragment">
-<p>Emotion in the post <span class="math inline">\(\rightarrow\)</span> emotion in discussion</p>
+<!-- -->
+<h3 id="emotion-in-the-post-rightarrow-emotion-in-discussion">Emotion in the post <span class="math inline">\(\rightarrow\)</span> emotion in discussion</h3>
 </div>
 </div>
 </div>
@@ -573,22 +570,22 @@
 <section id="do-sources-with-lower-trustworthiness-include-more-anger" class="slide level2">
 <h2>Do sources with lower trustworthiness include more anger?</h2>
 
-<img data-src="images/initial_emo_coeff.png" width="600" class="r-stretch"><p><span class="math inline">\(rightarrow\)</span> lower trustworthiness = anger <span class="math inline">\(rightarrow\)</span> higher trustworthiness = joy</p>
-<h3 id="yes">Yes!</h3>
+<img data-src="images/initial_emo_coeff.png" width="600" class="r-stretch"><h3 id="rightarrow-lower-trustworthiness-anger"><span class="math inline">\(\rightarrow\)</span> Lower trustworthiness = anger</h3>
+<h3 id="rightarrow-higher-trustworthiness-joy"><span class="math inline">\(\rightarrow\)</span> higher trustworthiness = joy</h3>
 </section>
-<section id="is-lower-trustworthiness-associated-with-higher-engagement" class="slide level2">
+
+<section id="is-lower-trustworthiness-associated-with-higher-engagement-1" class="slide level2">
 <h2>Is lower trustworthiness associated with higher engagement?</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<p><sub>Models:&nbsp;Negative&nbsp;Binomial&nbsp;(log-link)</sub></p>
+<p><sub>Models:&nbsp;Zero-inflated&nbsp;Negative&nbsp;Binomial&nbsp;(log-link)</sub></p>
 <p><sub>Controls:&nbsp;PO,&nbsp;word&nbsp;count,&nbsp;following,&nbsp;initial&nbsp;emotions</sub></p>
-<p><img data-src="images/models_nb_estimates-se.jpg" width="600"></p>
+<p><img data-src="images/models_zinb_estimates-se.png" width="600"></p>
 </div><div class="column" style="width:30%;">
 <p><img data-src="images/reply_distributions.png" width="300"></p>
-<div class="fragment">
+</div><div class="fragment">
 <!-- -->
-<h3 id="untrustworthy-news-are-retweeted-less">Untrustworthy news are retweeted less</h3>
-</div>
+<h3 id="rightarrow-untrustworthy-news-get-more-retweets-and-quotes"><span class="math inline">\(\rightarrow\)</span> Untrustworthy news get more retweets and quotes</h3>
 </div>
 </div>
 <div class="footer">
@@ -605,14 +602,15 @@
 <ul>
 <li>Emotions in discussions largely reflect emotions in initial post</li>
 <li>Sources with low trustworthiness are related to anger and out-group references</li>
+<li>More <em>contextual</em> engagement</li>
 </ul>
-<p>More negative emotions in misinformation <span class="math inline">\(\rightarrow\)</span> more emotions in response <span class="math inline">\(\rightarrow\)</span> more engagement?</p>
+<h3 id="negative-emotions-in-misinformation-rightarrow-emotions-in-response-rightarrow-engagement">Negative emotions in misinformation <span class="math inline">\(\rightarrow\)</span> emotions in response <span class="math inline">\(\rightarrow\)</span> engagement?</h3>
 </section>
 <section id="up-next" class="slide level2">
 <h2>Up next</h2>
 <ul>
-<li>analyzing responses in within-users (reponding to trustworthy and untrustworthy posts)</li>
-<li>robustness checks with multinomial models and bootstrapping</li>
+<li>responses within-users (responding to trustworthy and untrustworthy posts)</li>
+<li>bootstrapping</li>
 <li>characterizing the full discussion trees</li>
 </ul>
 <div class="footer">
@@ -622,7 +620,7 @@
 <section id="thank-you" class="title-slide slide level1 center">
 <h1>Thank you!</h1>
 <div class="columns">
-<p>Please reach out! Email: <a href="jula.luehring@univie.ac.at">jula.luehring@univie.ac.at</a></p><p>X: <a href="https://twitter.com/lue_jula"><span class="citation" data-cites="lue_jula">@lue_jula</span></a></p><p>Bluesky: <a href="https://bsky.app/profile/julaluehring.bsky.social"><span class="citation" data-cites="julaluehring.bsky.social">@julaluehring.bsky.social</span></a></p><div class="column" style="width:30%;">
+<p>Please reach out!</p><p>Email: <a href="jula.luehring@univie.ac.at">jula.luehring@univie.ac.at</a></p><p>X: <a href="https://twitter.com/lue_jula">@lue_jula</a></p><p>Bluesky: <a href="https://bsky.app/profile/julaluehring.bsky.social">@julaluehring.bsky.social</a></p><div class="column" style="width:30%;">
 <p><img data-src="images/CCL-logo.png" width="500"></p>
 </div><div class="column" style="width:20%;">
 <p><img data-src="images/CSH-logo.png" width="500"></p>
