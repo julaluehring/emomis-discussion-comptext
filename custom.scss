@@ -1,30 +1,38 @@
 /*-- scss:defaults --*/
 /* define variables that affect fonts, colors, borders, etc. (note that variables start with a $)*/
 
-//$body-bg: #191919;
-//$body-color: #fff;
-$link-color: #0063A6;
-
+// font and body
+$presentation-font-family: 'Calibri', sans-serif;
+$presentation-font-size: 1em;
+$link-color: #2A76DD;
 
 // headings
-$presentation-heading-color: #0063A6;
-$presentation-h1-color: #0063A6; 
-$presentation-h1-font-size: 2.5em;
-$presentation-h2-font-size: 1.4em;
+$presentation-heading-color: #2A76DD;
+$presentation-h1-color: #2A76DD; 
+$presentation-h1-font-size: 2.4em;
+$presentation-h2-font-size: 1.2em;
 $presentation-h3-font-size: 1em;
-//$presentation-heading-font: $font-family-sans-serif
 
-// smaller title on title slide
+// title slide
 .title-slide .title {
-  font-size: 20px;
+  font-size: 16px;
 }
-
-// more space between columns: 
-/*
-.column {
-  margin-right: 10px;
-};*/
-//no slide number on title sldie
 .title-slide .remark-slide-number {
   display: none;
 }
+
+// slide background
+.logo {
+  position: absolute;
+  top: 20px; /* Adjust the top position */
+  left: 20px; /* Adjust the left position */
+  width: 200px; /* Adjust the width */
+  height: auto;
+}
+
+.reveal .slides {
+  .logo {
+    @extend .logo;
+  }
+}
+
