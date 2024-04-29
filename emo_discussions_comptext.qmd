@@ -86,6 +86,7 @@ Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-
 - We therefore wonder if negative arousing emotions drive engagement with misinformation?
 - And what is the role of intergroup conflict in this, as a factor that can explain the direction of emotions
 
+::: 
 ## Problems
 
 ::: columns 
@@ -305,11 +306,11 @@ Carrella et al., [2023](https://osf.io/qx34w); Gonzalez-Bailon et al., [2010](ht
 ::: columns
 
 Please reach out!
-Email: jula.luehring\@univie.ac.at
+Email: [jula.luehring@univie.ac.at](jula.luehring@univie.ac.at)
 
-X: @lue_jula
+X: [@lue_jula](https://twitter.com/lue_jula)
 
-Bluesky: @julaluehring.bsky.social
+Bluesky: [@julaluehring.bsky.social](https://bsky.app/profile/julaluehring.bsky.social)
 
 ::: {.column width="30%"}
 ![](images/CCL-logo.png){width="500"}
