@@ -1,5 +1,5 @@
 ---
-title: "Effects of News Trustworthiness on Online Discussions"
+title: "Effects of Misinformation on Emotions in Online Discussions"
 author: "Jula Luehring"
 date: "3 May 2024"
 format: 
@@ -23,7 +23,7 @@ editor: visual #visual editor
 # WORK IN PROGRESS
 
 ::: notes
--   This is work in progress
+-   This is a work in progress so I'm happy about any feedback or discussion later!
 :::
 
 ## Emotions and Misinformation
@@ -31,48 +31,73 @@ editor: visual #visual editor
 ::: incremental
 -   Misinformation as inaccurate information
 
--   Arousing emotions are signal to make us better select, process and memorize information
+    -   Symptom of a partisan information ecosystem
+  
+-  Missing link in partisan-based processing: emotions
 
--   In the case of misinformation, arousing emotions may increase acceptance and after effects
+    -   Arousing emotions are signals to make us better select, process and memorize information
+    
+    -   But also hinder systematic processing
 
--   **But:** the function of emotions is complex and hinges on the interaction of prior beliefs and content
+-   In the context of misinformation, arousing emotions may reinforce partisan-biased processing
+
 :::
 
 ::: footer
-Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [2023](https://www.nature.com/articles/s44159-021-00006-y); Leach & Zeineddine, [2021](https://link.springer.com/10.1007/s42761-021-00051-z); Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/); Martel et al. [2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7539247/); Wardle & Derakhshan, [2017](http://tverezo.info/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-desinformation-A4-BAT.pdf)
+Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [2023](https://www.nature.com/articles/s44159-021-00006-y); Martel et al. [2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7539247/); Wardle & Derakhshan, [2017](http://tverezo.info/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-desinformation-A4-BAT.pdf)
 :::
 
 ::: notes
--   Misinformation is used as an umbrella term and broadly captures all types of inaccurate information, regardless of the intention
--   Generally, most people are driven by accuracy, but they fall for misinformation when it aligns with their partisan biases
--   In this process, a missing link seem to be emotions because arousing, mobilizing emotions signal us to better select, process and memorize vital information
--   which in theory, this is good, but, in some situations, they can also hinder systematic processing
--   In the case of misinformation, we expect the latter: here, emotions can have a reinforcing effect and trick us into believing and engaging with misinformation
--   However, emotions are functional; therefore, also the function of emotions hinges on the interaction of prior beliefs and content
+-   So when we talk about misinformation, we usually refer to inaccurate information, regardless of the intention. 
+
+-   Despite concerns about misinformation, it now seems as a symptom of a clustered information ecosystem where few people are exposed to misinformation, while most people have partisan information diets, including decontextualized but not completely inaccurate information
+
+-   In this process, a missing link are emotions 
+
+-   While arousing, mobilizing emotions signal us to better select, process and memorize vital information
+
+-   Which, in theory, is good, they can also hinder systematic processing 
+
+-   In the case of misinformation, arousing emotions may therefore reinforce partisan-based processing 
 :::
 
 ## Misinformation on social media
 
--   Negative, arousing emotions attract attention and increase sharing
+::: incremental
 
--   High engagement: highly emotional, moralizing and negative content
+-   Negative, arousing emotions attract attention
 
--   Misinformation is embedded in group & emotion dynamics
+-   High engagement: angry, moralizing and negative content
 
-Q: Do negative, arousing emotions drive engagement with misinformation?
+-   Misinformation is embedded in emotional dynamics and intergoup conflict
 
-Q: What is the role of inter-group conflict?
+:::
+
+::: fragment
+
+### Questions
+-  What are the effects of misinformation on online discussions?
+
+      -  emotions
+      -  engagement
+
+
+::: 
 
 ::: footer
-Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Zollo et al., [2015](https://dx.plos.org/10.1371/journal.pone.0138740)
+Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Leach & Zeineddine, [2021](https://link.springer.com/10.1007/s42761-021-00051-z); Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Zollo et al., [2015](https://dx.plos.org/10.1371/journal.pone.0138740)
 :::
 
 ::: notes
--   On social media, we also expect that negative, arousing emotions attract attention and increase sharing.
--   Content that is highly arousing and negative gets higher engagement
--   Also here, misinformation is embedded in group and emotional dynamics
--   We therefore wonder if negative arousing emotions drive engagement with misinformation?
--   And what is the role of intergroup conflict in this, as a factor that can explain the direction of emotions
+-   On social media, arousing emotions attract attention and higher engagement, reflecting a function of emotions, namely grabbing attention
+
+-   Content that is highly arousing and negative gets higher engagement, typically, this is moralizing and conflictual content 
+
+-   So we would also expect misinformation to be embedded in such emotional dynamics, anger, and intergroup conflict but while this makes a lot of sense in theory, research on this is mixed because 
+a) it is hard to trigger emotions in a lab setting and
+b) the observational evidence that we have is mostly based on survey or social media data from the US
+
+-   Therefore, we were wondering what the effects of misinformation are on online discussions, do they trigger conflict and anger, and does this then lead to higher engagement? 
 :::
 
 ## Problems
@@ -80,68 +105,81 @@ Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-
 ::: columns
 ::: {.column width="50%"}
 ::: fragment
-### #1:
+1.  Misinformation is often measured as clearly true or false instances,
 
-Misinformation is measured as clearly true or false instances,
-
-    1.  neglecting less extreme types of misinformation and
-
-    2.  making it hard to isolate effects of misinformation
+        -   neglecting less extreme types,
+        
+        -   making it hard to isolate effects of misinformation
 :::
 :::
 
 ::: {.column width="50%"}
 ::: fragment
-### #2:
+2.  Different effects of emotions are overlooked
 
-Different effects of emotions are often overlooked,
-
-    1. by measuring positive and negative sentiment only,
-
-    2. because emotions within news are mixed up with reactions to the news,
-
-    3. ignoring the meaning of emotions (first response and aggregate effects)
+        -   by measuring positive and negative sentiment only,
+      
+        -   mixing up emotional reactions with prior state, stimuli, etc.,
+      
+        -   ignoring the origin of emotions.
 :::
 :::
+:::
+
+::: footer
+Luehring et al., (*in prep.*); Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/); Van Damme & Smets, [2014](https://psycnet.apa.org/record/2013-39652-001)
+:::
+
+::: notes
+-   We identified two problems that we wanted to tackle in this study
+
+-   First, misinformation is often measured as clearly false, fact-checked instances, which ignores less extreme and more influential types of misinformation, for instance biased news, and it makes it hard to isolate the effects from real news
+      
+      -   So the question is, are the effects that we are observing unique to misinformation?
+
+-   Second, emotions are functional; and the function of emotions hinges on the interaction of prior beliefs and content. Therefore, measuring only positive and negative sentiment, or mixing up emotional state with emotional reactions overlooks the contextual effects of different emotions.
 :::
 
 ## Objectives
 
-<center>
 
 ::: columns
 ::: {.column width="50%"}
+::: fragment
 1.  Collecting a **systematic, large-scale and long-term dataset** for the German-speaking context
 
-::: fragment
 ### Continuous trustworthiness ratings by NewsGuard (#1)
 :::
 :::
 
 ::: {.column width="50%"}
+::: fragment
 2.  Approximating **causal inference** to test the effects of misinformation on online discussions
 
-::: fragment
 ### Nonparametric matching strategy (#2)
 :::
 :::
 :::
 
-</center>
 
 ::: notes
-Therefore, we derive 2 major objectives:
+- So, we derived 2 major objectives: 
+
+- First, we wanted to collect a systematic, large-scale and long-term dataset that relies on continuous trustworthiness ratings for sources, including biased but relatively trustworthy sources so that it reflects the whole spectrum of news trustworthiness
+
+- Second, we tried a matching approach to approximate causal inference so that we could isolate the effects of untrustworthy sources
 :::
 
 # Data collection
+::: notes
+Let's talk about the data
+:::
 
 ## Emotion inference
 
 ::: columns
 ::: {.column width="70%"}
-*N* = 9.3M Twitter discussions following 347 German news domains (20.6M total)
-
-$\rightarrow$ *Untrustworthy sources*
+*N* = 9.3M Twitter discussions following 347 German news domains (20.6M tweets total)
 
 ::: fragment
 ![](images/daily_emotions_complete.png){width="600"}
@@ -149,11 +187,12 @@ $\rightarrow$ *Untrustworthy sources*
 :::
 
 ::: {.column width="30%"}
-NewsGuard (0-100):
+NewsGuard 
 
-    -  93.8% trustworthy (>60)
+(0-100):
 
-    -  18.9% left/21.8% right
+    - 93.8% trustworthy (>60)
+    
 
 ::: fragment
 Classification:
@@ -169,13 +208,24 @@ Classification:
 Lasser et al., [2023](http://arxiv.org/abs/2303.00357); Widmann & Wich, [2022](https://doi.org/10.1017/pan.2022.15)
 :::
 
+::: notes
+-   We collected roughly 9 million twitter discussions where a German news domain was shared as the first tweet, with 20M tweets in total. For those news domains, we have a trustworthiness rating from NewsGuard, therefore, we understand misinformation here as news from untrustworthy sources
+-   For each tweet, we then classified 8 distinct emotions and out-group references from text 
+-   This plot shows the covered time frame from October 2020 to March 2022 and we can already see that anger is overall much higher 
+
+:::
+
 # Part I: Discussions
+
+::: notes
+- Now, we are zooming in on the tweets that got at least one reply and the following discussion thread
+:::
 
 ## Nonparametric matching
 
 ::: columns
 ::: {.column width="70%"}
-![](images/mahalanobis_plot_wd.png){width="900"}
+![](images/mahalanobis_plot_wd.png){width="700"}
 :::
 
 ::: {.column width="30%"}
@@ -193,58 +243,220 @@ Covariates: PO, word count, following/followers, time difference, emotions
 Ho et al., [2007](https://www.cambridge.org/core/journals/political-analysis/article/matching-as-nonparametric-preprocessing-for-reducing-model-dependence-in-parametric-causal-inference/4D7E6D07C9727F5A604E5C9FCCA2DD21)
 :::
 
+::: notes
+NewsGuard sets a threshold at a trustworthiness score at 60, such that sources below 60 are considered untrustworthy 
+
+We used this classification to create two conditions (trustworthy vs untrustworthy) and then applied a nonparametric matching approach to balance the dataset based on a set of covariates
+
+Those are the political orientation of the source, the initial emotion in the tweet, following, follower and tweet counts, as well as the word count of the first tweet
+
+We also included the time difference between the first reply and the last to control for collective emotional development
+
+This plot shows the initial standardized mean difference between the two conditions in white dots and the balanced data in black, where we can see that we reduced it to almost 0 for most covariates, so we literally hold them constant
+
+This approach reduced the balanced dataset to 87,000 discussions
+:::
+
 ## Do emotions differ based on trustworthiness?
 
 ::: columns
 ::: {.column width="75%"}
-~Models: OLS regressions~
-
-![](images/mean_emotion_matched-95.png){width="600"}
+![](images/mean_emotion_matched-95.png){width="600"} ~Models: OLS regressions~
 :::
 
 ::: {.column width="25%"}
-![](images/emotion_distributions.png){width="600"}
-
 ::: fragment
-### $\rightarrow$ More anger and out-group references
 
-### $\rightarrow$ Less joy
+$\rightarrow$ More anger and out-group references
+
+$\rightarrow$ Less joy
 :::
 :::
+:::
+
+::: notes
+Here, we can see the regression coefficients testing the effect of the treatment on the emotions in the discussoin
+
+-   There are significant differences in most emotions, except for enthusiasm, however, we observe substantially more anger, more out-group references and less joy in response to untrustworthy information
 :::
 
 ## But the covariates?
 
 ::: columns
-::: {.column width="75%"}
+::: {.column width="70%"}
 ![](images/full_regression_coeff_matched-wd_anger_joy.png){width="600"}
-:::
-
-::: {.column width="25%"}
 ~Models: OLS regressions~
-
-::: fragment
-### Emotion in the post $\rightarrow$ emotion in discussion
-:::
-:::
 :::
 
-::: fragment
-### $\rightarrow$ Trustworthiness barely predicts higher emotions
+::: {.column width="30%"}
+
+Emotion in the discussion reflects emotion in news post
+
 :::
+:::
+
+::: notes
+When we take a closer look at the effect of each covariate, we see a very interesting pattern overall: The emotion in the discussion reflects emotion in news post
+::: 
+
+## But the covariates?
+
+::: columns
+::: {.column width="70%"}
+![](images/anger.png){width="600"}
+~Models: OLS regressions~
+:::
+
+::: {.column width="30%"}
+
+Emotion in the discussion reflects emotion in news post
+
+:::
+:::
+::: notes
+-   Here, for anger
+:::
+
+## But the covariates?
+
+::: columns
+::: {.column width="70%"}
+![](images/joy.png){width="600"}
+~Models: OLS regressions~
+:::
+
+::: {.column width="30%"}
+
+Emotion in the discussion reflects emotion in news post
+
+:::
+
+:::
+::: fragment
+### $\rightarrow$ Trustworthiness barely predicts emotions
+:::
+
+::: notes
+-  And for joy
+-  Such that trustworthiness barely seems to predict any changes in emotions in the discussion
+::: 
 
 # Part II: Discussion starter
+
+::: notes
+In a second step, we wanted to zoom out again and look at the discussion starters in the unbalanced dataset and including discussions with no replies 
+::: 
 
 ## Do sources with lower trustworthiness include more anger?
 
 ![](images/initial_emo_coeff.png){width="600"}
 
-### $\rightarrow$ Lower trustworthiness = anger 
+### $\rightarrow$ Lower trustworthiness = anger
 
-### $\rightarrow$ higher trustworthiness = joy
+### $\rightarrow$ Higher trustworthiness = joy
+
+::: notes
+We especially wanted to see if tweets with a lower trustworthiness score also included more anger, explaining why there is more anger in the discussion
+And that's also what we found!
+Anger decreases when trustworthiness increases
+While joy increases when trustworthiness increases
+:::
+
+## Is lower trustworthiness associated with higher engagement?
+
+::: columns
+::: {.column width="70%"}
+~Models: Zero-inflated Negative Binomial (log-link)~
+
+~Controls: PO, word count, following, initial emotions~
+
+![](images/models_zinb_estimates-se.png){width="600"}
+:::
+
+::: {.column width="30%"}
+![](images/reply_distributions.png){width="300"}
+:::
+
+::: fragment
+### $\rightarrow$ Untrustworthy news get more retweets and quotes
+:::
+:::
+
+::: footer
+Zeileis et al., [2008](http://www.jstatsoft.org/v27/i08/)
+:::
+
+::: notes
+Lastly, we wanted to look at the associations between trustworthiness and engagement
+
+Here, we included the zero replies, which zero-inflated the distribution, which you can see in the top corner
+
+-   The results of our model show that a lower trustworthiness score is associated with more retweets and quote retweets
+:::
+
+# Conclusion (tentative)
+::: notes
+The conclusion so far
+:::
+
+## Emotions $\rightarrow$ emotions $\rightarrow$ engagement?
+
+::: incremental
+-   Sources with low trustworthiness predict anger and out-group references
+-   Emotions in discussions largely reflect emotions in initial post
+-   Is engagement with low trustworthiness due to covariates?
+:::
+
+::: notes
+-   Low trustworthiness predicts anger and conflict in discussions
+-   But, emotions in discussions largely reflect emotions in initial posts
+-   Therefore, we assume that misinformation includes more anger and conflict, which leads to engagement, not the trustworthiness
+:::
+
+# Thank you!
+
+::: columns
+
+::: {.column width="60%"}
+
+Email: [jula.luehring\@univie.ac.at](jula.luehring@univie.ac.at)
+
+Bluesky: [\@julaluehring.bsky.social](https://bsky.app/profile/julaluehring.bsky.social)
+
+X: [\@lue_jula](https://twitter.com/lue_jula)
+
+![](logos/logos-combined.png){width="600"}
+:::
+
+::: {.column width="40%"}
+
+![](images/frame.png){width="600"}
+
+:::
+
+:::
+
+::: notes
+Thank you very much!
+
+Feel free to reach out to me if you have any questions
+
+Also, this QR code leads to the slides
+
+:::
+
+## Up next {visibility="uncounted"}
+
+-   responses within-users (responding to trustworthy and untrustworthy posts)
+-   bootstrapping
+-   characterizing the full discussion trees
+
+::: footer
+Carrella et al., [2023](https://osf.io/qx34w); Gonzalez-Bailon et al., [2010](https://doi.org/10.1057/jit.2010.2)
+:::
 
 
-## Is lower trustworthiness associated with higher engagement? {visibility="hidden"}
+## Is lower trustworthiness associated with higher engagement? {visibility="uncounted"}
 
 ::: columns
 ::: {.column width="70%"}
@@ -262,69 +474,4 @@ Ho et al., [2007](https://www.cambridge.org/core/journals/political-analysis/art
 
 ::: footer
 Zeileis et al., [2008](http://www.jstatsoft.org/v27/i08/)
-:::
-
-
-## Is lower trustworthiness associated with higher engagement?
-
-::: columns
-::: {.column width="70%"}
-~Models: Zero-inflated Negative Binomial (log-link)~
-
-~Controls: PO, word count, following, initial emotions~
-
-![](images/models_zinb_estimates-se.png){width="600"}
-:::
-
-::: {.column width="30%"}
-![](images/reply_distributions.png){width="300"}
-
-:::
-::: fragment
-### $\rightarrow$ Untrustworthy news get more retweets and quotes
-:::
-:::
-
-::: footer
-Zeileis et al., [2008](http://www.jstatsoft.org/v27/i08/)
-:::
-
-# Conclusion (tentative)
-
-## Take-away messages
-
--   Emotions in discussions largely reflect emotions in initial post
--   Sources with low trustworthiness are related to anger and out-group references
--   More *contextual* engagement
-
-### Negative emotions in misinformation $\rightarrow$ emotions in response $\rightarrow$ engagement?
-
-## Up next
-
--   responses within-users (responding to trustworthy and untrustworthy posts)
--   bootstrapping
--   characterizing the full discussion trees
-
-::: footer
-Carrella et al., [2023](https://osf.io/qx34w); Gonzalez-Bailon et al., [2010](https://doi.org/10.1057/jit.2010.2)
-:::
-
-# Thank you!
-
-::: columns
-Please reach out! 
-
-Email: [jula.luehring\@univie.ac.at](jula.luehring@univie.ac.at)
-
-X: [\@lue_jula](https://twitter.com/lue_jula)
-
-Bluesky: [\@julaluehring.bsky.social](https://bsky.app/profile/julaluehring.bsky.social)
-
-::: {.column width="30%"}
-![](images/CCL-logo.png){width="500"}
-:::
-
-::: {.column width="20%"}
-![](images/CSH-logo.png){width="500"}
-:::
 :::
