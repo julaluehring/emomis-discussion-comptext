@@ -121,7 +121,7 @@ b) the observational evidence that we have is mostly based on survey or social m
       
         -   mixing up emotional reactions with prior state, stimuli, etc.,
       
-        -   ignoring the origin of emotions.
+        -   ignoring the function of emotions.
 :::
 :::
 :::
@@ -275,9 +275,9 @@ $\rightarrow$ Less joy
 :::
 
 ::: notes
-Here, we can see the regression coefficients testing the effect of the treatment on the emotions in the discussoin
+Here, we can see the regression coefficients testing the effect of the treatment on the emotions in both the whole discussion aggregated and only the first response to the stimuli
 
--   There are significant differences in most emotions, except for enthusiasm, however, we observe substantially more anger, more out-group references and less joy in response to untrustworthy information
+-   In both, there are significant differences in most emotions, except for enthusiasm, however, we observe substantially more anger, more out-group references and less joy in response to untrustworthy information
 :::
 
 ## But the covariates?
@@ -347,7 +347,7 @@ Emotion in the discussion reflects emotion in news post
 In a second step, we wanted to zoom out again and look at the discussion starters in the unbalanced dataset and including discussions with no replies 
 ::: 
 
-## Do sources with lower trustworthiness include more anger?
+## Do posts with lower trustworthiness include more anger?
 
 ![](images/initial_emo_coeff.png){width="600"}
 
@@ -378,7 +378,8 @@ While joy increases when trustworthiness increases
 :::
 
 ::: fragment
-### $\rightarrow$ Untrustworthy news get more retweets and quotes
+$\rightarrow$ Trustworthy sources get substantially more likes
+$\rightarrow$ Excluding excess zeroes, untrustworthy sources get more retweets and quotes
 :::
 :::
 
@@ -391,7 +392,9 @@ Lastly, we wanted to look at the associations between trustworthiness and engage
 
 Here, we included the zero replies, which zero-inflated the distribution, which you can see in the top corner
 
--   The results of our model show that a lower trustworthiness score is associated with more retweets and quote retweets
+-   The results of our logistic regression model show that trustworthy information generally gets more likes than untrustworthy information
+
+-   And the count model shows that, when excess zeroes are excluded, a lower trustworthiness score is associated with more retweets and quote retweets
 :::
 
 # Conclusion (tentative)
