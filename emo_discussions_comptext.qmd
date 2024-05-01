@@ -1,7 +1,7 @@
 ---
 title: "Effects of Misinformation on Emotions in Online Discussions"
 author: "Jula Luehring"
-date: "3 May 2024"
+date: "COMPTEXT, Amsterdam, 3 May 2024"
 format: 
   revealjs: 
     seal: false
@@ -23,7 +23,7 @@ editor: visual #visual editor
 # WORK IN PROGRESS
 
 ::: notes
--   This is a work in progress so I'm happy about any feedback or discussion later!
+-   Disclaimer: This is a work in progress so I'm happy about any feedback or discussion later!
 :::
 
 ## Emotions and Misinformation
@@ -131,7 +131,7 @@ Luehring et al., (*in prep.*); Luehring\*, Shetty\*, et al., [2023](https://psya
 :::
 
 ::: notes
--   We identified two problems that we wanted to tackle in this study
+We identified two problems that we wanted to tackle in this study
 
 -   First, misinformation is often measured as clearly false, fact-checked instances, which ignores less extreme and more influential types of misinformation, for instance biased news, and it makes it hard to isolate the effects from real news
       
@@ -163,7 +163,7 @@ Luehring et al., (*in prep.*); Luehring\*, Shetty\*, et al., [2023](https://psya
 
 
 ::: notes
-- So, we derived 2 major objectives: 
+So, we derived 2 major objectives: 
 
 - First, we wanted to collect a systematic, large-scale and long-term dataset that relies on continuous trustworthiness ratings for sources, including biased but relatively trustworthy sources so that it reflects the whole spectrum of news trustworthiness
 
@@ -209,7 +209,8 @@ Lasser et al., [2023](http://arxiv.org/abs/2303.00357); Widmann & Wich, [2022](h
 :::
 
 ::: notes
--   We collected roughly 9 million twitter discussions where a German news domain was shared as the first tweet, with 20M tweets in total. For those news domains, we have a trustworthiness rating from NewsGuard, therefore, we understand misinformation here as news from untrustworthy sources
+We collected roughly 9 million twitter discussions where a German news domain was shared as the first tweet, with 20M tweets in total. For those news domains, we have a trustworthiness rating from NewsGuard, therefore, we understand misinformation here as news from untrustworthy sources
+
 -   For each tweet, we then classified 8 distinct emotions and out-group references from text 
 -   This plot shows the covered time frame from October 2020 to March 2022 and we can already see that anger is overall much higher 
 
@@ -218,7 +219,7 @@ Lasser et al., [2023](http://arxiv.org/abs/2303.00357); Widmann & Wich, [2022](h
 # Part I: Discussions
 
 ::: notes
-- Now, we are zooming in on the tweets that got at least one reply and the following discussion thread
+Now, we are zooming in on the tweets that got at least one reply and the following discussion thread
 :::
 
 ## Nonparametric matching
@@ -275,7 +276,7 @@ $\rightarrow$ Less joy
 :::
 
 ::: notes
-Here, we can see the regression coefficients testing the effect of the treatment on the emotions in both the whole discussion aggregated and only the first response to the stimuli
+Here, we can see the mean differences in emotions between trustworthy vs untrustworthy discussion threads, with emotions measured in both the whole discussion aggregated and only the first response to the stimuli
 
 -   In both, there are significant differences in most emotions, except for enthusiasm, however, we observe substantially more anger, more out-group references and less joy in response to untrustworthy information
 :::
@@ -333,7 +334,7 @@ Emotion in the discussion reflects emotion in news post
 
 :::
 ::: fragment
-### $\rightarrow$ Trustworthiness barely predicts emotions
+$\rightarrow$ Trustworthiness barely predicts emotions
 :::
 
 ::: notes
@@ -351,9 +352,10 @@ In a second step, we wanted to zoom out again and look at the discussion starter
 
 ![](images/initial_emo_coeff.png){width="600"}
 
-### $\rightarrow$ Lower trustworthiness = anger
+$\rightarrow$ Lower trustworthiness = anger
 
-### $\rightarrow$ Higher trustworthiness = joy
+
+$\rightarrow$ Higher trustworthiness = joy
 
 ::: notes
 We especially wanted to see if tweets with a lower trustworthiness score also included more anger, explaining why there is more anger in the discussion
@@ -379,6 +381,7 @@ While joy increases when trustworthiness increases
 
 ::: fragment
 $\rightarrow$ Trustworthy sources get substantially more likes
+
 $\rightarrow$ Excluding excess zeroes, untrustworthy sources get more retweets and quotes
 :::
 :::
