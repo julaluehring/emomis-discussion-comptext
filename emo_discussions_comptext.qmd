@@ -28,7 +28,7 @@ editor: visual #visual editor
 
 ## Emotions and Misinformation
 
-::: incremental
+
 -   Misinformation as inaccurate information
 
     -   Symptom of a partisan information ecosystem
@@ -41,7 +41,6 @@ editor: visual #visual editor
 
 -   In the context of misinformation, arousing emotions may reinforce partisan-biased processing
 
-:::
 
 ::: footer
 Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [2023](https://www.nature.com/articles/s44159-021-00006-y); Martel et al. [2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7539247/); Wardle & Derakhshan, [2017](http://tverezo.info/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-desinformation-A4-BAT.pdf)
@@ -63,7 +62,7 @@ Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [
 
 ## Misinformation on social media
 
-::: incremental
+
 
 -   Negative, arousing emotions attract attention
 
@@ -71,7 +70,6 @@ Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Ecker et al., [
 
 -   Misinformation is embedded in emotional dynamics and intergoup conflict
 
-:::
 
 ::: fragment
 
@@ -93,9 +91,9 @@ Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-
 
 -   Content that is highly arousing and negative gets higher engagement, typically, this is moralizing and conflictual content 
 
--   So we would also expect misinformation to be embedded in such emotional dynamics, anger, and intergroup conflict but while this makes a lot of sense in theory, research on this is mixed because 
-a) it is hard to trigger emotions in a lab setting and
-b) the observational evidence that we have is mostly based on survey or social media data from the US
+-   So we would also expect misinformation to be embedded in such emotional dynamics, anger, and intergroup hate
+
+-   And a major concern about misinformation is not just how many people believe in it but secondary effects, such as loss in trust, growing affective polarization, and so on.
 
 -   Therefore, we were wondering what the effects of misinformation are on online discussions, do they trigger conflict and anger, and does this then lead to higher engagement? 
 :::
@@ -181,9 +179,7 @@ Let's talk about the data
 ::: {.column width="70%"}
 *N* = 9.3M Twitter discussions following 347 German news domains (20.6M tweets total)
 
-::: fragment
 ![](images/daily_emotions_complete.png){width="600"}
-:::
 :::
 
 ::: {.column width="30%"}
@@ -194,13 +190,11 @@ NewsGuard
     - 93.8% trustworthy (>60)
     
 
-::: fragment
 Classification:
 
     - 8 emotions (Widmann & Wich, 2022; Macro F1=0.7)
 
     - Out-group references (Lasser at al., 2023; F1=0.8)
-:::
 :::
 :::
 
@@ -253,7 +247,7 @@ Those are the political orientation of the source, the initial emotion in the tw
 
 We also included the time difference between the first reply and the last to control for collective emotional development
 
-This plot shows the initial standardized mean difference between the two conditions in white dots and the balanced data in black, where we can see that we reduced it to almost 0 for most covariates, so we literally hold them constant
+This plot shows the initial standardized mean difference between the two conditions in white dots and the balanced data in black, where we can see that by matching fitting cases, we reduced it to almost 0 for most covariates, so we literally hold them constant across the two conditions
 
 This approach reduced the balanced dataset to 87,000 discussions
 :::
@@ -266,16 +260,18 @@ This approach reduced the balanced dataset to 87,000 discussions
 :::
 
 ::: {.column width="25%"}
-::: fragment
+
 
 $\rightarrow$ More anger and out-group references
 
 $\rightarrow$ Less joy
-:::
+
 :::
 :::
 
 ::: notes
+So, do emotions differ based on trustworthiness?
+
 Here, we can see the mean differences in emotions between trustworthy vs untrustworthy discussion threads, with emotions measured in both the whole discussion aggregated and only the first response to the stimuli
 
 -   In both, there are significant differences in most emotions, except for enthusiasm, however, we observe substantially more anger, more out-group references and less joy in response to untrustworthy information
@@ -298,6 +294,9 @@ Emotion in the discussion reflects emotion in news post
 
 ::: notes
 When we take a closer look at the effect of each covariate, we see a very interesting pattern overall: The emotion in the discussion reflects emotion in news post
+
+This effect is stronger than the trustworthiness, here at the bottom, or the political orientation of the source
+
 ::: 
 
 ## But the covariates?
@@ -333,9 +332,9 @@ Emotion in the discussion reflects emotion in news post
 :::
 
 :::
-::: fragment
+
 $\rightarrow$ Trustworthiness barely predicts emotions
-:::
+
 
 ::: notes
 -  And for joy
@@ -345,7 +344,7 @@ $\rightarrow$ Trustworthiness barely predicts emotions
 # Part II: Discussion starter
 
 ::: notes
-In a second step, we wanted to zoom out again and look at the discussion starters in the unbalanced dataset and including discussions with no replies 
+In a second step, we wanted to zoom out again and look at the discussion starters in the unbalanced dataset and including news posts with no replies 
 ::: 
 
 ## Do posts with lower trustworthiness include more anger?
@@ -359,8 +358,11 @@ $\rightarrow$ Higher trustworthiness = joy
 
 ::: notes
 We especially wanted to see if tweets with a lower trustworthiness score also included more anger, explaining why there is more anger in the discussion
+
 And that's also what we found!
+
 Anger decreases when trustworthiness increases
+
 While joy increases when trustworthiness increases
 :::
 
@@ -379,11 +381,8 @@ While joy increases when trustworthiness increases
 ![](images/reply_distributions.png){width="300"}
 :::
 
-::: fragment
-$\rightarrow$ Trustworthy sources get substantially more likes
+$\rightarrow$ Untrustworthy sources get more retweets and quotes
 
-$\rightarrow$ Excluding excess zeroes, untrustworthy sources get more retweets and quotes
-:::
 :::
 
 ::: footer
@@ -395,9 +394,7 @@ Lastly, we wanted to look at the associations between trustworthiness and engage
 
 Here, we included the zero replies, which zero-inflated the distribution, which you can see in the top corner
 
--   The results of our logistic regression model show that trustworthy information generally gets more likes than untrustworthy information
-
--   And the count model shows that, when excess zeroes are excluded, a lower trustworthiness score is associated with more retweets and quote retweets
+-   The results of our logistic regression model show that trustworthy information generally gets more likes than untrustworthy information. And the count model shows that, when excess zeroes are excluded, a lower trustworthiness score is associated with more retweets and quote retweets
 :::
 
 # Conclusion (tentative)
@@ -407,17 +404,29 @@ The conclusion so far
 
 ## Emotions $\rightarrow$ emotions $\rightarrow$ engagement?
 
-::: incremental
 -   Sources with low trustworthiness predict anger and out-group references
 -   Emotions in discussions largely reflect emotions in initial post
 -   Is engagement with low trustworthiness due to covariates?
-:::
 
 ::: notes
 -   Low trustworthiness predicts anger and conflict in discussions
 -   But, emotions in discussions largely reflect emotions in initial posts
--   Therefore, we assume that misinformation includes more anger and conflict, which leads to engagement, not the trustworthiness
+-   Therefore, we assume that misinformation includes more anger and conflict, which leads to engagement, not the trustworthiness. If we measured topics, this effect would probably largely be explained by that.
 :::
+
+## Up next
+
+-   responses within-users (responding to trustworthy and untrustworthy posts)
+-   bootstrapping
+-   characterizing the full discussion trees
+-   other classifications: topics, toxicity, morality?
+-   direction of anger
+
+::: footer
+Carrella et al., [2023](https://osf.io/qx34w); Gonzalez-Bailon et al., [2010](https://doi.org/10.1057/jit.2010.2)
+:::
+
+
 
 # Thank you!
 
@@ -449,16 +458,6 @@ Feel free to reach out to me if you have any questions
 
 Also, this QR code leads to the slides
 
-:::
-
-## Up next {visibility="uncounted"}
-
--   responses within-users (responding to trustworthy and untrustworthy posts)
--   bootstrapping
--   characterizing the full discussion trees
-
-::: footer
-Carrella et al., [2023](https://osf.io/qx34w); Gonzalez-Bailon et al., [2010](https://doi.org/10.1057/jit.2010.2)
 :::
 
 

@@ -350,20 +350,18 @@
 </section>
 <section id="emotions-and-misinformation" class="slide level2">
 <h2>Emotions and Misinformation</h2>
-<div>
 <ul>
-<li class="fragment"><p>Misinformation as inaccurate information</p>
+<li><p>Misinformation as inaccurate information</p>
 <ul>
-<li class="fragment">Symptom of a partisan information ecosystem</li>
+<li>Symptom of a partisan information ecosystem</li>
 </ul></li>
-<li class="fragment"><p>Missing link in partisan-based processing: emotions</p>
+<li><p>Missing link in partisan-based processing: emotions</p>
 <ul>
-<li class="fragment"><p>Arousing emotions are signals to make us better select, process and memorize information</p></li>
-<li class="fragment"><p>But also hinder systematic processing</p></li>
+<li><p>Arousing emotions are signals to make us better select, process and memorize information</p></li>
+<li><p>But also hinder systematic processing</p></li>
 </ul></li>
-<li class="fragment"><p>In the context of misinformation, arousing emotions may reinforce partisan-biased processing</p></li>
+<li><p>In the context of misinformation, arousing emotions may reinforce partisan-biased processing</p></li>
 </ul>
-</div>
 <div class="footer">
 <p>Altay et al., <a href="https://doi.org/10.1177/20563051221150412">2023</a>; Ecker et al., <a href="https://www.nature.com/articles/s44159-021-00006-y">2023</a>; Martel et al.&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7539247/">2020</a>; Wardle &amp; Derakhshan, <a href="http://tverezo.info/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-desinformation-A4-BAT.pdf">2017</a></p>
 </div>
@@ -390,13 +388,11 @@
 </section>
 <section id="misinformation-on-social-media" class="slide level2">
 <h2>Misinformation on social media</h2>
-<div>
 <ul>
-<li class="fragment"><p>Negative, arousing emotions attract attention</p></li>
-<li class="fragment"><p>High engagement: angry, moralizing and negative content</p></li>
-<li class="fragment"><p>Misinformation is embedded in emotional dynamics and intergoup conflict</p></li>
+<li><p>Negative, arousing emotions attract attention</p></li>
+<li><p>High engagement: angry, moralizing and negative content</p></li>
+<li><p>Misinformation is embedded in emotional dynamics and intergoup conflict</p></li>
 </ul>
-</div>
 <div class="fragment">
 <!-- -->
 <h3 id="questions">Questions</h3>
@@ -415,14 +411,9 @@
 <ul>
 <li><p>On social media, arousing emotions attract attention and higher engagement, reflecting a function of emotions, namely grabbing attention</p></li>
 <li><p>Content that is highly arousing and negative gets higher engagement, typically, this is moralizing and conflictual content</p></li>
-<li><p>So we would also expect misinformation to be embedded in such emotional dynamics, anger, and intergroup conflict but while this makes a lot of sense in theory, research on this is mixed because</p></li>
-</ul>
-<ol type="a">
-<li>it is hard to trigger emotions in a lab setting and</li>
-<li>the observational evidence that we have is mostly based on survey or social media data from the US</li>
-</ol>
-<ul>
-<li>Therefore, we were wondering what the effects of misinformation are on online discussions, do they trigger conflict and anger, and does this then lead to higher engagement?</li>
+<li><p>So we would also expect misinformation to be embedded in such emotional dynamics, anger, and intergroup hate</p></li>
+<li><p>And a major concern about misinformation is not just how many people believe in it but secondary effects, such as loss in trust, growing affective polarization, and so on.</p></li>
+<li><p>Therefore, we were wondering what the effects of misinformation are on online discussions, do they trigger conflict and anger, and does this then lead to higher engagement?</p></li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -544,19 +535,15 @@
 <div class="columns">
 <div class="column" style="width:70%;">
 <p><em>N</em> = 9.3M Twitter discussions following 347 German news domains (20.6M tweets total)</p>
-<div class="fragment">
 <p><img data-src="images/daily_emotions_complete.png" width="600"></p>
-</div>
 </div><div class="column" style="width:30%;">
 <p>NewsGuard</p>
 <p>(0-100):</p>
 <pre><code>- 93.8% trustworthy (&gt;60)</code></pre>
-<div class="fragment">
 <p>Classification:</p>
 <pre><code>- 8 emotions (Widmann &amp; Wich, 2022; Macro F1=0.7)
 
 - Out-group references (Lasser at al., 2023; F1=0.8)</code></pre>
-</div>
 </div>
 </div>
 <div class="footer">
@@ -615,7 +602,7 @@
 <p>We used this classification to create two conditions (trustworthy vs untrustworthy) and then applied a nonparametric matching approach to balance the dataset based on a set of covariates</p>
 <p>Those are the political orientation of the source, the initial emotion in the tweet, following, follower and tweet counts, as well as the word count of the first tweet</p>
 <p>We also included the time difference between the first reply and the last to control for collective emotional development</p>
-<p>This plot shows the initial standardized mean difference between the two conditions in white dots and the balanced data in black, where we can see that we reduced it to almost 0 for most covariates, so we literally hold them constant</p>
+<p>This plot shows the initial standardized mean difference between the two conditions in white dots and the balanced data in black, where we can see that by matching fitting cases, we reduced it to almost 0 for most covariates, so we literally hold them constant across the two conditions</p>
 <p>This approach reduced the balanced dataset to 87,000 discussions</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -635,13 +622,12 @@
 <div class="column" style="width:75%;">
 <p><img data-src="images/mean_emotion_matched-95.png" width="600"> <sub>Models:&nbsp;OLS&nbsp;regressions</sub></p>
 </div><div class="column" style="width:25%;">
-<div class="fragment">
 <p><span class="math inline">\(\rightarrow\)</span> More anger and out-group references</p>
 <p><span class="math inline">\(\rightarrow\)</span> Less joy</p>
 </div>
 </div>
-</div>
 <aside class="notes">
+<p>So, do emotions differ based on trustworthiness?</p>
 <p>Here, we can see the mean differences in emotions between trustworthy vs untrustworthy discussion threads, with emotions measured in both the whole discussion aggregated and only the first response to the stimuli</p>
 <ul>
 <li>In both, there are significant differences in most emotions, except for enthusiasm, however, we observe substantially more anger, more out-group references and less joy in response to untrustworthy information</li>
@@ -669,6 +655,7 @@
 </div>
 <aside class="notes">
 <p>When we take a closer look at the effect of each covariate, we see a very interesting pattern overall: The emotion in the discussion reflects emotion in news post</p>
+<p>This effect is stronger than the trustworthiness, here at the bottom, or the political orientation of the source</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -715,9 +702,7 @@
 <p>Emotion in the discussion reflects emotion in news post</p>
 </div>
 </div>
-<div class="fragment">
 <p><span class="math inline">\(\rightarrow\)</span> Trustworthiness barely predicts emotions</p>
-</div>
 <aside class="notes">
 <ul>
 <li>And for joy</li>
@@ -739,7 +724,7 @@
 <section id="part-ii-discussion-starter" class="title-slide slide level1 center">
 <h1>Part II: Discussion starter</h1>
 <aside class="notes">
-<p>In a second step, we wanted to zoom out again and look at the discussion starters in the unbalanced dataset and including discussions with no replies</p>
+<p>In a second step, we wanted to zoom out again and look at the discussion starters in the unbalanced dataset and including news posts with no replies</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -758,7 +743,10 @@
 <img data-src="images/initial_emo_coeff.png" width="600" class="r-stretch"><p><span class="math inline">\(\rightarrow\)</span> Lower trustworthiness = anger</p>
 <p><span class="math inline">\(\rightarrow\)</span> Higher trustworthiness = joy</p>
 <aside class="notes">
-<p>We especially wanted to see if tweets with a lower trustworthiness score also included more anger, explaining why there is more anger in the discussion And that’s also what we found! Anger decreases when trustworthiness increases While joy increases when trustworthiness increases</p>
+<p>We especially wanted to see if tweets with a lower trustworthiness score also included more anger, explaining why there is more anger in the discussion</p>
+<p>And that’s also what we found!</p>
+<p>Anger decreases when trustworthiness increases</p>
+<p>While joy increases when trustworthiness increases</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -780,10 +768,7 @@
 <p><img data-src="images/models_zinb_estimates-se.png" width="600"></p>
 </div><div class="column" style="width:30%;">
 <p><img data-src="images/reply_distributions.png" width="300"></p>
-</div><div class="fragment">
-<p><span class="math inline">\(\rightarrow\)</span> Trustworthy sources get substantially more likes</p>
-<p><span class="math inline">\(\rightarrow\)</span> Excluding excess zeroes, untrustworthy sources get more retweets and quotes</p>
-</div>
+</div><p><span class="math inline">\(\rightarrow\)</span> Untrustworthy sources get more retweets and quotes</p>
 </div>
 <div class="footer">
 <p>Zeileis et al., <a href="http://www.jstatsoft.org/v27/i08/">2008</a></p>
@@ -792,8 +777,7 @@
 <p>Lastly, we wanted to look at the associations between trustworthiness and engagement</p>
 <p>Here, we included the zero replies, which zero-inflated the distribution, which you can see in the top corner</p>
 <ul>
-<li><p>The results of our logistic regression model show that trustworthy information generally gets more likes than untrustworthy information</p></li>
-<li><p>And the count model shows that, when excess zeroes are excluded, a lower trustworthiness score is associated with more retweets and quote retweets</p></li>
+<li>The results of our logistic regression model show that trustworthy information generally gets more likes than untrustworthy information. And the count model shows that, when excess zeroes are excluded, a lower trustworthiness score is associated with more retweets and quote retweets</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -826,18 +810,16 @@
 </section>
 <section id="emotions-rightarrow-emotions-rightarrow-engagement" class="slide level2">
 <h2>Emotions <span class="math inline">\(\rightarrow\)</span> emotions <span class="math inline">\(\rightarrow\)</span> engagement?</h2>
-<div>
 <ul>
-<li class="fragment">Sources with low trustworthiness predict anger and out-group references</li>
-<li class="fragment">Emotions in discussions largely reflect emotions in initial post</li>
-<li class="fragment">Is engagement with low trustworthiness due to covariates?</li>
+<li>Sources with low trustworthiness predict anger and out-group references</li>
+<li>Emotions in discussions largely reflect emotions in initial post</li>
+<li>Is engagement with low trustworthiness due to covariates?</li>
 </ul>
-</div>
 <aside class="notes">
 <ul>
 <li>Low trustworthiness predicts anger and conflict in discussions</li>
 <li>But, emotions in discussions largely reflect emotions in initial posts</li>
-<li>Therefore, we assume that misinformation includes more anger and conflict, which leads to engagement, not the trustworthiness</li>
+<li>Therefore, we assume that misinformation includes more anger and conflict, which leads to engagement, not the trustworthiness. If we measured topics, this effect would probably largely be explained by that.</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -850,6 +832,19 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="up-next" class="slide level2">
+<h2>Up next</h2>
+<ul>
+<li>responses within-users (responding to trustworthy and untrustworthy posts)</li>
+<li>bootstrapping</li>
+<li>characterizing the full discussion trees</li>
+<li>other classifications: topics, toxicity, morality?</li>
+<li>direction of anger</li>
+</ul>
+<div class="footer">
+<p>Carrella et al., <a href="https://osf.io/qx34w">2023</a>; Gonzalez-Bailon et al., <a href="https://doi.org/10.1057/jit.2010.2">2010</a></p>
+</div>
 </section></section>
 <section>
 <section id="thank-you" class="title-slide slide level1 center">
@@ -879,17 +874,6 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
-<section id="up-next" class="slide level2" data-visibility="uncounted">
-<h2>Up next</h2>
-<ul>
-<li>responses within-users (responding to trustworthy and untrustworthy posts)</li>
-<li>bootstrapping</li>
-<li>characterizing the full discussion trees</li>
-</ul>
-<div class="footer">
-<p>Carrella et al., <a href="https://osf.io/qx34w">2023</a>; Gonzalez-Bailon et al., <a href="https://doi.org/10.1057/jit.2010.2">2010</a></p>
-</div>
 </section>
 <section id="is-lower-trustworthiness-associated-with-higher-engagement-1" class="slide level2" data-visibility="uncounted">
 <h2>Is lower trustworthiness associated with higher engagement?</h2>
